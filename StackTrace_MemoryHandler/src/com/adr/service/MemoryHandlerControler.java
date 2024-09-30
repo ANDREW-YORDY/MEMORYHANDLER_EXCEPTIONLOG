@@ -1,10 +1,11 @@
 package com.adr.service;
 
-public class MemoryHandlerControler {
+public class MemoryHandlerControler 
+{
 
     public void runException() {
         MemoryHandlerService ctrService = new MemoryHandlerService();
-        MemoryHandlerLogger  ctrLogger = new MemoryHandlerLogger();
+        MemoryHandlerLogger ctrLogger = new MemoryHandlerLogger();
 
         try {
             // Inducir un error (java.lang.ArrayIndexOutOfBoundsException)
